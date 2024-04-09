@@ -1,0 +1,109 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.barrasup {
+    background-color: rgb(76, 190, 55);
+    height: 3%;
+    width: 100%;
+}
+
+.barrapuls {
+    background-color: rgb(197, 132, 78);
+    height: 5%;
+    width: 100%;
+
+}
+
+.boxcont {
+    display: grid;
+    grid-template-columns: 20% 80%; /* Definisce due colonne, una del 20% e una dell'80% */
+    width: 100%;
+    height: 100%;
+    background-color: brown;
+}
+
+.boxfunz {
+    background-color: rgb(78, 116, 197);
+    height: 100%;
+    padding-left: 10px;
+}
+
+.boxscreen {
+    background-color: rgb(234, 21, 238);
+    height: 100%;
+    width: 100%;
+    padding-left: 10px;
+
+
+}
+
+.boxfunz, .boxscreen {
+    display: inline-block;
+}
+
+
+
+.funzionalità {
+    background-color: rgb(183, 41, 81);
+    display: flex;
+    align-items: center; /* Centra l'elemento verticalmente */
+    margin-top: 10px;
+    }
+
+
+    details {
+        cursor: pointer;
+        position: relative;
+        background-color: rgb(165, 127, 255);
+        
+    }
+
+
+    /* Stile per l'immagine */
+    .spese-image {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 30px; /* Imposta la larghezza desiderata per l'immagine */
+    height: 30px; /* Imposta la larghezza desiderata per l'immagine */
+    max-width: 100%; /* L'immagine non supererà mai la sua larghezza originale */
+    max-width: 100%;
+    margin-right: 10px;
+    }
+
+    .income-image {
+        position: relative;
+        left: 0;
+        top: 0;
+        width: 30px; /* Imposta la larghezza desiderata per l'immagine */
+        height: 30px; /* Imposta la larghezza desiderata per l'immagine */
+        max-width: 100%; /* L'immagine non supererà mai la sua larghezza originale */
+        max-width: 100%;;
+        margin-right: 10px;
+        }
+
+
+    .barrapuls img {
+        width: 23px;
+        height: 23px;
+        margin-top: 6px;
+    }
+
+
+    .table2 {
+        border-collapse: collapse;
+        width: 80%;
+        height: 60%;
+      }
+    
+      .table2 th, .table2 td {
+        border: 1px solid #dddddd;
+        text-align: left;
+      }
+    
+      .table2 th {
+        background-color: #f2f2f2;
+      }
